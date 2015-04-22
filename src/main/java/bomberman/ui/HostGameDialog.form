@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="bomberman.ui.HostGameDialog">
+  <grid id="cbd77" binding="hostGamePanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy row="48" col="54" width="515" height="354"/>
+    </constraints>
+    <properties>
+      <background color="-16614490"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="989f1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="15" bottom="15" right="15" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font size="26"/>
+          <text value="Map:"/>
+        </properties>
+      </component>
+      <component id="ebff3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="15" bottom="15" right="15" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <requestFocusEnabled value="true"/>
+          <text value="World Type:"/>
+        </properties>
+      </component>
+      <component id="869f4" class="javax.swing.JComboBox" binding="worldComboBox">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="15" bottom="15" right="15" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <model/>
+          <preferredSize width="250" height="30"/>
+        </properties>
+      </component>
+      <component id="4b7ba" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="15" bottom="15" right="15" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-5013208"/>
+          <text value="Cancel"/>
+          <verticalAlignment value="3"/>
+        </properties>
+      </component>
+      <component id="2341a" class="javax.swing.JButton" binding="startButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="15" bottom="15" right="15" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-5013208"/>
+          <text value="Start"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="548b9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="15" bottom="15" right="15" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <requestFocusEnabled value="true"/>
+          <text value="Port:"/>
+        </properties>
+      </component>
+      <component id="f973c" class="javax.swing.JComboBox" binding="mapComboBox">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="15" left="15" bottom="15" right="15" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <model/>
+          <preferredSize width="250" height="30"/>
+        </properties>
+      </component>
+      <component id="47d9" class="javax.swing.JTextField" binding="portTextField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="15" left="15" bottom="15" right="15" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font size="26"/>
+          <preferredSize width="250" height="30"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

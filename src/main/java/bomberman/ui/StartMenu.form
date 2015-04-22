@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="bomberman.ui.StartMenu">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy row="20" col="20" width="370" height="350"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <alignmentY value="0.0"/>
+      <background color="-16614490"/>
+      <font/>
+      <maximumSize width="370" height="350"/>
+      <minimumSize width="370" height="350"/>
+      <preferredSize width="370" height="350"/>
+    </properties>
+    <border type="bevel-raised"/>
+    <children>
+      <grid id="71427" binding="buttonPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <autoscrolls value="true"/>
+          <background color="-16614490"/>
+          <maximumSize width="370" height="350"/>
+          <minimumSize width="370" height="350"/>
+          <preferredSize width="370" height="350"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="557b9" class="javax.swing.JButton" binding="hostGameButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="2" use-parent-layout="false">
+                <preferred-size width="127" height="71"/>
+                <maximum-size width="300" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-5013208"/>
+              <font size="20"/>
+              <margin top="10" left="14" bottom="10" right="14"/>
+              <maximumSize width="300" height="43"/>
+              <minimumSize width="300" height="43"/>
+              <preferredSize width="300" height="43"/>
+              <text value="&amp;Host Game"/>
+            </properties>
+          </component>
+          <component id="bd4d8" class="javax.swing.JButton" binding="editPlayerButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="2" use-parent-layout="false">
+                <maximum-size width="300" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-5013208"/>
+              <font size="20"/>
+              <margin top="10" left="14" bottom="10" right="14"/>
+              <maximumSize width="300" height="43"/>
+              <minimumSize width="300" height="43"/>
+              <preferredSize width="300" height="43"/>
+              <text value="&amp;Edit Player"/>
+            </properties>
+          </component>
+          <component id="82830" class="javax.swing.JButton" binding="helpButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="2" use-parent-layout="false">
+                <maximum-size width="300" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <actionCommand value="Help"/>
+              <alignmentY value="0.0"/>
+              <background color="-5013208"/>
+              <font size="20"/>
+              <margin top="10" left="14" bottom="10" right="14"/>
+              <maximumSize width="300" height="43"/>
+              <minimumSize width="300" height="43"/>
+              <preferredSize width="300" height="43"/>
+              <text value="&amp;Help"/>
+            </properties>
+          </component>
+          <component id="5f07e" class="javax.swing.JButton" binding="aboutButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="2" use-parent-layout="false">
+                <maximum-size width="300" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-5013208"/>
+              <font size="20"/>
+              <margin top="10" left="14" bottom="10" right="14"/>
+              <maximumSize width="300" height="43"/>
+              <minimumSize width="300" height="43"/>
+              <preferredSize width="300" height="43"/>
+              <text value="&amp;About"/>
+            </properties>
+          </component>
+          <component id="1371a" class="javax.swing.JButton" binding="exitButton">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="2" use-parent-layout="false">
+                <maximum-size width="300" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <actionCommand value="Exit"/>
+              <alignmentY value="0.0"/>
+              <background color="-5013208"/>
+              <borderPainted value="false"/>
+              <defaultCapable value="true"/>
+              <font size="20"/>
+              <margin top="10" left="14" bottom="10" right="14"/>
+              <maximumSize width="300" height="43"/>
+              <minimumSize width="300" height="43"/>
+              <preferredSize width="300" height="43"/>
+              <text value="&amp;Exit"/>
+            </properties>
+            <clientProperties>
+              <hideActionText class="java.lang.Boolean" value="false"/>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+          <component id="1b862" class="javax.swing.JButton" binding="joinGameButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="2" use-parent-layout="false">
+                <maximum-size width="300" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.0"/>
+              <background color="-5013208"/>
+              <font size="20"/>
+              <margin top="10" left="14" bottom="10" right="14"/>
+              <maximumSize width="300" height="43"/>
+              <minimumSize width="300" height="43"/>
+              <preferredSize width="300" height="43"/>
+              <text value="&amp;Join Game"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="b92fa" class="javax.swing.JLabel">
+        <constraints border-constraint="North"/>
+        <properties>
+          <alignmentY value="0.0"/>
+          <focusable value="false"/>
+          <font size="36" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value="Bomberman"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
